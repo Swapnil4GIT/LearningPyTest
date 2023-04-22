@@ -1,16 +1,13 @@
-import pytest 
+# def testAddItemtoCart(tc_setup):
+#     print("Add Item Successful")
 
-@pytest.fixture
-def setUp():
-    print("Launch browser")
-    print("Login")
-    print("Browse products")
-    yield
-    print("Logoff")
-    print("Close browser")
+# def testRemoveItemFromCart(tc_setup):
+#     print("Remove Item Successful")
 
-def testAddItemtoCart(setUp):
+#Autouse = True in conftest doesn't need to call the fixture function tc_setup. It will automatically use it.
+
+def testAddItemtoCart():
     print("Add Item Successful")
 
-def testRemoveItemFromCart(setUp):
+def testRemoveItemFromCart():
     print("Remove Item Successful")
