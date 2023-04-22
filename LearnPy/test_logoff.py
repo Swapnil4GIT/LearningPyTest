@@ -1,8 +1,6 @@
-def testLogin():
-    print("Login Successful")
 
-def testLogoff():
-    print("Logoff Successful")
+def testAddItemtoCart():
+    print("Add Item Successful")
 
-def testCalculation():
-    assert 2+2 == 4
+def testRemoveItemFromCart():
+    print("")
